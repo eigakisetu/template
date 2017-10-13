@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+//foundation 初期設定
+//bootstrapはnormarize,gridのみ使用
+@import 'foundation/_bootstrap';
+@import "foundation/_font";
+@import "foundation/_base";
+
+//utility 便利クラス
+//@import "object/utility/";
+
+//components 共通パーツ
+@import "object/component/lv1/_font";
+
+//page 使い回せないパーツ
+//@import "object/page";
+
+//layout
+@import "layout/_footer";
+@import "layout/_header";
+@import "layout/_main";
+@import "layout/_sidebar";
