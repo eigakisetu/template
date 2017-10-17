@@ -13,7 +13,7 @@ global.minifyOption = {
 	"pug": false,
 	"sass": true,
 	"scripts": true,
-	"images": true
+	"images": false
 };
 
 require("./resources/assets/gulp/server.js")
