@@ -22,9 +22,8 @@ require("./resources/assets/gulp/sass.js")
 require("./resources/assets/gulp/scripts.js")
 // require("./resources/assets/gulp/styleguide.js")
 require("./resources/assets/gulp/clean.js")
-require("./resources/assets/gulp/copy.js")
-
 require("./resources/assets/gulp/sketch.js")
+require("./resources/assets/gulp/copy.js")
 
 gulp.task("watch", global.watch)
 
