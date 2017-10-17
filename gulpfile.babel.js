@@ -12,7 +12,8 @@ global.useWebpack = false;
 global.minifyOption = {
 	"pug": false,
 	"sass": true,
-	"scripts": true
+	"scripts": true,
+	"images": true
 };
 
 require("./resources/assets/gulp/server.js")
