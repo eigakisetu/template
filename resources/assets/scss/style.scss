@@ -8,12 +8,11 @@
 
 //utility 便利クラス
 //@import "object/utility/";
-
 //components 共通パーツ
 @import "object/component/lv1/_font";
 
-//page 使い回せないパーツ
-//@import "object/page";
+//pages ページごとに作成するcss
+//@import "object/pages";
 
 //layout
 @import "layout/_footer";

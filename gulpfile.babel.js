@@ -10,7 +10,7 @@ global.src = "./";
 global.dest = "./public/";
 global.useWebpack = false;
 global.minifyOption = {
-	"pug": true,
+	"pug": false,
 	"sass": true,
 	"scripts": true
 };
@@ -22,6 +22,8 @@ require("./resources/assets/gulp/scripts.js")
 // require("./resources/assets/gulp/styleguide.js")
 require("./resources/assets/gulp/clean.js")
 require("./resources/assets/gulp/copy.js")
+
+require("./resources/assets/gulp/sketch.js")
 
 gulp.task("watch", global.watch)
 
